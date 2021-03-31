@@ -4,7 +4,7 @@
   "description": "test",
   "main": "sum.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sarakjellemo/inlamning-2-sarakjellemo#readme",
   "dependencies": {
+    "jest": "^26.6.3",
     "jquery": "^3.6.0"
   }
 }
